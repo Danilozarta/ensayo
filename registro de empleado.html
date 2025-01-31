@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+  <nav3>
+    <div class="hamburger" id="hamburger">
+      <div class="line line1"></div>
+      <div class="line line2"></div>
+    </div>
+    <ul id="menu" class="menu">
+      <li><a href="home.html">Inicio</a></li>
+      <li><a href="index.html">Cerrar Sesión</a></li>
+    </ul>
+  </nav3>
+    <header>
+        <h1 class="h1-registro">Formulario de Registro</h1>
+      </header>
+     <!-- registro de emplado -->
+      <main>
+        <section class="formulario">
+          <h2>Ingresar Datos</h2>
+          <form action="#" method="POST">
+            <fieldset>
+              <legend>Datos Personales</legend>
+              
+              <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+              </div>
+              
+              <div class="campo">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+              </div>
+              
+              <div class="campo">
+                <label for="cedula">Cédula:</label>
+                <input type="number" id="cedula" name="cedula" required>
+              </div>
+               
+              <div class="campo">
+                <label for="empres">Empresa:</label>
+                <input type="text" id="apellido" name="apellido" required>
+              </div>
+              <div class="campo">
+                <label for="cargo">Cargo:</label>
+                <input type="text" id="cargo" name="cargo" required>
+              </div>
+             
+            </div>
+              <div class="campo"> 
+                <label class="col-md-4 control-label">Sitio de Trabajo</label>
+                  <div class="col-md-4 selectContainer">
+                  <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                  <select name="state" class="form-control selectpicker" >
+                    <option value=" " ></option>
+                    <option>Cuerna Vaca</option>
+                    <option>Santa Barbara</option>
+                    <option >Campo</option>
+                    <option >Planta</option>
+                    <option >Oficinas</option>
+                  </select>
+             </div>
+               <br>
+              <div class="campo">
+                <label for="contacto">Número de Contacto:</label>
+                <input type="tel" id="contacto" name="contacto" required>
+              </div>
+    
+              <div class="campo">
+                <button type="submit" class="btn1">Registrar</button>
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </main>
+    
+</body>
+</html>

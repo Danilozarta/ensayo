@@ -1,0 +1,840 @@
+/*  logo                      de                        amburguesa   */
+.nav3 {
+  position: relative;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.line {
+  height: 4px;
+  background-color: #333;
+  border-radius: 2px;
+}
+
+.menu {
+  list-style: none;
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin: 15px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu li {
+    margin: 0 15px;
+  }
+}
+
+/*  pagina                   de         iniciar         sesion  */
+/*  pagina                   de         iniciar         sesion  */
+/*  pagina                   de         iniciar         sesion  */
+/*  pagina                   de         iniciar         sesion  */
+body 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+ 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.h1-login {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+input {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #5c6bc0;
+  outline: none;
+}
+
+.boton-entrar {
+  padding: 1rem;
+  background-color: #5c6bc0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3f4e88;
+}
+
+@media (max-width: 480px) {
+  .login-container {
+      padding: 1.5rem;
+  }
+
+  h1 {
+      font-size: 1.3rem;
+  }
+
+  input, button {
+      font-size: 1rem;
+  }
+}
+
+.header1 {
+  display:flex;
+  justify-content:flex-start ;
+  align-items: center;
+  height: 15vh;
+  margin: 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+
+.logo{
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+	
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    transform: translateX(-01%); 
+	
+}
+
+/*  pagina                            de                 inicio  */
+/*  pagina                            de                 inicio  */
+/*  pagina                            de                 inicio  */
+/*  pagina                            de                 inicio  */
+
+address {
+	background-color: #ce3636;
+	color: white;
+	padding: 20px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+}
+address {
+    background-color: #9b5050;
+    color: white;
+    padding: 10px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+address {
+    font-style: normal;
+	
+}
+
+address {
+    color: #333;
+    text-decoration: none;
+}
+
+address {
+    text-decoration: underline;
+}
+
+.search-container{
+	height: 45px;
+	
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+    width: 300px;
+    padding: 0px;
+   
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 50%;  
+    transform: translateX(-50%); 
+	margin-top: 0px;
+}
+
+
+.container2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display:flex;
+    justify-content:flex-start ;
+    align-items: center;
+    height: 40vh;
+    margin: 0;
+  }
+
+.input[type="search"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+}
+    
+.box {
+    background-color: #18b432cc;
+    width: 150px;
+    height: 200px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+	margin-left: 30%;  
+    transform: translateX(-50%); 
+	margin-top: 70px;
+	
+}
+
+.title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.btn2 {
+    padding: 10px 45px;
+    font-size: 14px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* pagina                      registro              de                        empleado */
+/* pagina                      registro              de                        empleado */
+/* pagina                      registro              de                        empleado */
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 50%;
+  }
+  
+  .h1-registro {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  fieldset {
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .campo {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input:focus {
+    border-color: #4A90E2;
+    outline: none;
+  }
+  
+  button.btn1 {
+    width: 100%;
+    padding: 10px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.btn1:hover {
+    background-color: #357ABD;
+  }
+  .header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px;
+  }
+ 
+  /*  pagina                        entega                      de                           epp */                            
+ /*  pagina                        entega                      de                           epp */                            
+ /*  pagina                        entega                      de                           epp */                            
+ /*  pagina                        entega                      de                           epp */                            
+
+
+ .header {
+  background-color: #333;
+  color: rgb(243, 238, 238);
+  text-align: center;
+  padding: 0px;
+  } 
+  
+  .h1-entrega{
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+
+  .main2 {
+    padding: 20px;
+  }
+  
+  .form-container2{
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 50%;
+  }
+ 
+  fieldset{
+    border: none;
+    padding: 0;
+  }
+
+  legend {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+.h2{
+  text-align: center;
+  margin-bottom: 20xp;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+input[type="text"], input[type="number"], input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="file"]:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+
+button.btn2 {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #20cc59;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+button.btn2:hover {
+  background-color: #367e36;
+}
+button.btn3 {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4A90E2;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+button.btn3:hover {
+  background-color: #357ABD;
+}
+.info {
+  font-size: 0.9em;
+  color: #777;
+}
+
+
+/* pagina                historial                     de                      usuario */
+/* pagina                historial                     de                      usuario */
+/* pagina                historial                     de                      usuario */
+
+
+
+section {
+  max-width: 100%;
+  margin: 0px auto;
+  padding: 0px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+  display: block;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #0808089a;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  background-color: #fafafa;
+}
+
+
+@media screen and (max-width: 768px) {
+  table {
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      -webkit-overflow-scrolling: touch;
+  }
+  
+  th, td {
+      display: block;
+      width: 100%;
+      text-align: left;
+      box-sizing: border-box;
+  }
+
+  th {
+      background-color: #f2f2f2;
+  }
+  
+  td {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  tr {
+      margin-bottom: 10px;
+  }
+}
+.search-container2{
+	height: 45px;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+    width: 300px;
+    padding: 10px;
+   
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 50%;  
+    transform: translateX(-50%); 
+	margin-top: 0px;
+}
+
+.main4{
+  padding: 20px;
+}
+
+.nombre-auto{
+  width: 30%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.877);
+  
+}
+.label4{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.input4[type="text"], input[type="number"], input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.input4[type="text"][type="text"]:focus, input[type="number"]:focus, input[type="file"]:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* pagina                        descargar                                historial */
+/* pagina                        descargar                                historial */
+/* pagina                        descargar                                historial */
+/* pagina                        descargar                                historial */
+
+
+
+
+
+
+  
+/* Estilo para el botón de descarga */
+a.btn-descarga {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  max-width: 100%;
+  margin: 5px auto;
+  padding: 10px;
+  
+ 
+  margin-left: 80%;
+    transform: translateX(-0%);
+ 
+}
+
+a.btn-descarga:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+a.btn-descarga:active {
+  background-color: #388e3c;
+}
+a.btn-Agregar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  max-width: 100%;
+  margin: 5px auto;
+  padding: 10px;
+  
+ 
+  margin-left: 66%;
+    transform: translateX(-0%);
+ 
+}
+
+a.btn-Agregar:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+a.btn-Agregar:active {
+  background-color: #388e3c;
+}
+
+/* pagina                      de                                   administrador*/
+/* pagina                      de                                   administrador*/
+/* pagina                      de                                   administrador*/
+/* pagina                      de                                   administrador*/
+
+.header-admin {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header-admin nav ul {
+  list-style-type: none;
+}
+
+.header-admin nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.header-admin nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-admin {
+  padding: 20px;
+}
+
+.dashboard h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.actions {
+  margin-bottom: 20px;
+}
+
+.agregar-admin {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.agregar-admin:hover {
+  background-color: #0056b3;
+}
+
+.user-list {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.user-list h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.username {
+  font-size: 1.1em;
+}
+
+.block-btn, .delete-btn {
+  background-color: #f44336;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.block-btn:hover, .delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+.footer-admin {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+}
+
+/* pagina          para        que         admin            agregue           usuarios*/
+/* pagina          para        que         admin            agregue           usuarios*/
+/* pagina          para        que         admin            agregue           usuarios*/
+/* pagina          para        que         admin            agregue           usuarios*/
+
+
+#addUserForm {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+#addUserForm h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+#addUserForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+#addUserForm label {
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+#addUserForm input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#addUserForm button {
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+#addUserForm button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+#addUserForm button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#addUserForm button[type="button"] {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+#addUserForm button[type="button"]:hover {
+  background-color: #d32f2f;
+}
+
+/* Clase para ocultar el formulario */
+.hidden {
+  display: none;
+}
